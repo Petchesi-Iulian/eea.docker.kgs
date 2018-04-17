@@ -1,4 +1,4 @@
-FROM ipetchesi/eea.docker.kgs:latest-devel
+FROM ipetchesi/eea.docker.kgs:latest
 
 RUN apt-get update \
  && apt-get install -y --no-install-recommends build-essential \
